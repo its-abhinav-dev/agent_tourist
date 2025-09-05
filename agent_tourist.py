@@ -82,7 +82,7 @@ Return JSON only.
     }
 
     body = {
-        "model": "llama3-8b-8192",  # Free LLaMA-3 model
+        "model": "llama-3.1-8b-instant",  # Free LLaMA-3 model
         "messages": [{"role": "user", "content": prompt}],
         "max_tokens": 200
     }
